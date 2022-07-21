@@ -1,0 +1,22 @@
+.gradient-signup {
+  background-color: #1A75CF;
+}
+
+.gradient-signup-btn {
+  border : none ;
+}
+
+
+.gradient-signup-btn:hover {
+  background-color: #fdbb30;
+}
+
+.invalidSignupDetailsTrue {
+  display: none;
+  position: absolute;
+}
+
+.invalidSignupDetailsFalse {
+  font-size: 1em;
+  color: red;
+}

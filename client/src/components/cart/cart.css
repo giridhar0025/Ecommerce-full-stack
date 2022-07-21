@@ -1,0 +1,126 @@
+
+.cart-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    background-color:  #1A75CF;
+    width: 100%;
+    min-height: 91vh;
+    max-height: auto;
+    padding-bottom: 1em;
+}
+
+.cart-container-left {
+    margin-top: 5em;
+    /* border: 1px solid black; */
+    background-color : #f2f2f2; 
+    width: 60%;
+    height: auto;
+    padding: 1em;
+    border-radius: 10px;
+    row-gap: 10px;
+}
+
+.cart-card {
+  /* border: 1px solid rgb(17, 0, 255) ; */
+  margin-top: 1em;
+  width: 100%;
+  height: 190px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 0.5em
+}
+
+
+.cart-card-allDetails {
+    /* border: 1px solid rgb(255, 0, 212); */
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 2em; */
+    width: 80%;
+}
+
+
+.cart-component-details{
+    /* border: 1px solid rgb(0, 255, 34) ; */
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+     padding: 1em;
+    width: 80%;
+    max-width: 500px;
+    min-width: 200px;
+}
+
+.cart-image {
+    /* border: 1px solid rgb(255, 0, 212); */
+    width: auto;
+    max-width: 10em;
+    display: grid;
+    align-content: center;
+}
+
+
+.cart-img {
+
+    /* border: 1px solid black; */
+    width: 100%;
+
+}
+
+.cart {
+    /* border: 1px solid black; */
+    margin-left: 1em;
+    height: 20%;
+}
+
+.cart-container-right {
+    /* border: 1px solid rgb(255, 0, 0); */
+    background-color : #f2f2f2; 
+    border-radius: 10px;
+    width: 25%;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.cart-checkout {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 80%;
+    height: 100%;
+}
+
+.cart-checkout-details {
+    font-size: 1.5em;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .cart-container {
+        flex-direction: column;
+        padding-bottom: 1em;
+    }
+
+    .cart-container-left {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cart-container-right {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+}

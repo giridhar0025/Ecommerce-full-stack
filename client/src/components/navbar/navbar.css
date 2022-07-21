@@ -1,0 +1,59 @@
+.nav-btns-false {   
+     /* border: 1px solid black;  */
+     width: 30%;
+     height: 38px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     row-gap: 10px;
+     justify-content: space-around
+}
+
+
+.nav-btns-true {
+    /* border: 1px solid black;  */
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+   
+}
+
+.logo-img {
+    margin-left: 5em;
+    width: 7em
+}
+
+
+.account-section {
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center
+}
+
+.account-div {
+      /* border: 1px solid black; */
+     margin-left: 1em;
+}
+
+.user-email {
+    font-weight: 700;
+}
+
+.material-symbols-outlined {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.account-section-general {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 50%;
+    display: flex;
+    row-gap: 10px;
+    justify-content: space-around
+}
